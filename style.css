@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+
+/* MODE MOBILE FIRST*/
+
+/*  header */
 h1{
     text-align: center;
     color: white;
@@ -15,6 +19,8 @@ header{
 
 }
 
+/* footer */
+
 footer h2{
     text-align: center;
     color: white;
@@ -26,6 +32,8 @@ footer {
     padding: 20px 0;
 
 }
+
+/* main */
 
 main{
     display: flex;
@@ -74,9 +82,11 @@ img{
     display: none;
 }
 
-
+/* MODE TABLETTE à partir de 600px */
 
 @media screen and (min-width:600px){
+
+    /* modifications header */
     header{
         padding: 50px 0;
 
@@ -86,6 +96,7 @@ img{
         font-weight: 100;
     }
 
+    /* modifications main */
     body{
         background-color: rgb(200, 198, 198);
     }
@@ -125,13 +136,20 @@ img{
     
 }
 
+/* MODE DESKTOP à partir de 1024 px */
+
 @media screen and (min-width:1024px){
-    body{
-        background-color: white;
-    }
+
+/* modifications header main et footer */
 h1, h2{
     color: red;
 }
+
+/* modication main */
+body{
+    background-color: white;
+}
+
  .bouton h2{ 
     color: white;
 }
